@@ -28,7 +28,8 @@ import java.util.List;
 
 public class ScanActivity extends AppCompatActivity {
 
-    private static final String TAG = "LOOP_DIRECTORY: ";
+    private static final String TAG = "ScanActivity_info";
+
     private TextView tvContent;
 
     public static Bitmap getPicFromBytes(byte[] bytes, BitmapFactory.Options opts) {
