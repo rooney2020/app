@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">超凡音乐播放器</string>
+    <string name="disk_name">U盘</string>
+    <string name="search_hint">输入歌曲名、视频名</string>
+</resources>

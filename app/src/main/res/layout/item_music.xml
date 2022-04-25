@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/music_list_line_height"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/music_order"
+        android:layout_width="@dimen/music_list_order_width"
+        android:layout_height="match_parent"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="1234"
+        android:textColor="@color/content_grey"
+        android:textSize="@dimen/music_list_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/music_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="@dimen/music_list_padding_size"
+        android:singleLine="true"
+        android:text="光年之外12345678901234567890123"
+        android:textColor="@color/content_grey"
+        android:textSize="@dimen/music_list_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/music_desc"
+        android:layout_width="@dimen/music_list_desc_width"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/music_list_margin_size"
+        android:ellipsize="end"
+        android:gravity="center_vertical|right"
+        android:singleLine="true"
+        android:text="邓紫棋-光年之外123"
+        android:textColor="@color/content_grey"
+        android:textSize="@dimen/music_list_text_size"
+        android:textStyle="bold" />
+</LinearLayout>

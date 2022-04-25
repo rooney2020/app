@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="@dimen/music_list_padding_size"
+        android:right="@dimen/music_list_padding_size">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:endColor="#161525"
+                android:startColor="#655a94"
+                android:type="linear" />
+            <corners
+                android:bottomLeftRadius="2000dip"
+                android:bottomRightRadius="2000dip" />
+        </shape>
+    </item>
+</layer-list>
